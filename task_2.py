@@ -5,8 +5,8 @@ from random import randint
 
 list_a = [randint(1, 99) for i in range(3)]
 list_b = [randint(1, 99) for i in range(3)]
-print(list_a)
-print(list_b)
+print(list_a, list_b)
+
 list_all = []
 
 for x in range(len(list_b)):
